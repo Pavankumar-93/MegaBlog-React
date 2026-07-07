@@ -114,14 +114,26 @@ function Footer() {
         </div>
 
         {/* Bottom Line */}
-        <div className="border-t border-slate-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
-            © 2026 MegaBlog. All rights reserved.
-          </p>
+        <div className="border-t border-slate-700 mt-12 pt-6">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text-gray-400 text-sm">
+              © 2026 MegaBlog. All rights reserved.
+            </p>
 
-          <p className="text-gray-400 text-sm mt-3 md:mt-0">
-            Built with ❤️ using React, Appwrite & Tailwind CSS
-          </p>
+            <p className="text-gray-400 text-sm mt-3 md:mt-0">
+              Built with ❤️ using React, Appwrite & Tailwind CSS
+            </p>
+          </div>
+
+          {/* Designer Credit */}
+          <div className="mt-5 text-center">
+            <p className="text-sm text-gray-500">
+              Designed & Developed by{" "}
+              <span className="font-semibold text-indigo-400 hover:text-indigo-300 transition duration-300">
+                PAVAN KUMAR.Y
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
