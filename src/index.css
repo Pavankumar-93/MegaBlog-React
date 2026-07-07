@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100%;
+}
+
+body{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+    background:#f5f5f5;
+    color:#222;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+button{
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+.card{
+    backdrop-filter:blur(12px);
+}
