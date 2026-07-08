@@ -4,7 +4,7 @@ function Logo({ width = "55px" }) {
   return (
     <div className="flex items-center gap-3">
       <img
-        src="public/images/8_1sasa11.jpg"
+        src="/images/8_1sasa11.jpg"
         alt="MegaBlog"
         style={{ width }}
         className="rounded-full"
